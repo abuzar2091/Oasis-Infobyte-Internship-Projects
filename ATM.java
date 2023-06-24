@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ATM {
+class ATM {
 
     private int balance;
 
@@ -25,7 +25,9 @@ public class ATM {
     public void checkBalance() {
         System.out.println("Your balance is " + this.balance);
     }
+}
 
+public class atmMachine {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
